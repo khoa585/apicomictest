@@ -1,0 +1,69 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\Phong\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js
+
+PATH: 
+  C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\GtkSharp\2.12\bin;C:\Program Files\nodejs\;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Users\Phong\AppData\Local\Android\Sdk\platform-tools;C:\Program Files (x86)\Bitvise SSH Client;C:\Program Files\MongoDB\Server\4.2\bin;C:\Windows\system32\config\systemprofile\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Users\Phong\AppData\Local\Microsoft\WindowsApps;C:\Users\Phong\AppData\Roaming\npm;C:\Users\Phong\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Phong\AppData\Local\Programs\Git\cmd
+
+Yarn version: 
+  1.22.4
+
+Node version: 
+  12.16.1
+
+Platform: 
+  win32 x64
+
+Trace: 
+  SyntaxError: C:\Users\Phong\Desktop\Phong\commicapi\package.json: Unexpected end of JSON input
+      at JSON.parse (<anonymous>)
+      at C:\Users\Phong\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (C:\Users\Phong\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:310:30)
+      at C:\Users\Phong\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:321:13
+
+npm manifest: 
+  {
+    "scripts": {
+      "dev": "nodemon --exec babel-node src/server.js",
+      "start": "babel-node src/server.js"
+    },
+    "name": "commicapi",
+    "version": "1.0.0",
+    "main": "index.js",
+    "repository": "https://gitlab.com/phongit1995/commicapi",
+    "author": "phong  nguyen <phongit1995@gmail.com>",
+    "license": "MIT",
+    "dependencies": {
+      "@babel/cli": "^7.8.4",
+      "@babel/core": "^7.9.0",
+      "@babel/node": "^7.8.7",
+      "@babel/plugin-proposal-class-properties": "^7.8.3",
+      "@babel/preset-env": "^7.9.0",
+      "@babel/preset-flow": "^7.9.0",
+      "@babel/register": "^7.9.0",
+      "babel-preset-es2015": "^6.24.1",
+      "body-parser": "^1.19.0",
+      "cheerio": "^1.0.0-rc.3",
+      "cors": "^2.8.5",
+      "dotenv": "^8.2.0",
+      "express": "^4.17.1",
+      "express-validation": "^1.0.2",
+      "ioredis": "^4.17.3",
+      "joi": "^14.3.1",
+      "kue": "^0.11.6",
+      "md5": "^2.2.1",
+      "memory-cache": "^0.2.0",
+      "mongoose": "^5.9.15",
+      "morgan": "^1.10.0",
+      "redis": "^3.0.2",
+      "request": "^2.88.2",
+      "request-promise": "^4.2.5",
+      "response-time": "^2.3.2"
+  
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
